@@ -1,6 +1,3 @@
-[submodule "tom_ts2dart"]
-	path = tom_ts2dart
-	url = git@github.com:al-the-bear/tom_ts2dart.git
 [submodule "tom_openclaw"]
 	path = tom_openclaw
 	url = git@github.com:al-the-bear/tom_openclaw.git
