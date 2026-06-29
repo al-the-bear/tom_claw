@@ -4,6 +4,3 @@
 [submodule "tom_pi_mono"]
 	path = tom_pi_mono
 	url = git@github.com:al-the-bear/tom_pi_mono.git
-[submodule "tom_ts2dart"]
-	path = tom_ts2dart
-	url = git@github.com:al-the-bear/tom_ts2dart.git
