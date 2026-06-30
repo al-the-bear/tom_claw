@@ -1,1 +1,9 @@
 ztmp/
+
+# tom_ts2dart was removed as a submodule (its standalone repo lives at
+# github.com/al-the-bear/tom_ts2dart). Some hosts still have a leftover
+# checkout of that nested repo on disk; without this rule a reconcile `git add`
+# keeps re-staging it as a phantom gitlink with no .gitmodules entry, which then
+# breaks recursive submodule update fleet-wide ("No url found for submodule path
+# tom_ts2dart"). Ignore the leftover working copy so it is never re-added.
+tom_ts2dart/
